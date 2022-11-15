@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import Meta from '../public/Meta.svg';
+import Meta from '../public/meta.svg';
 
 export default function Success() {
     const router = useRouter();
