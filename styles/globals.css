@@ -1,9 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Avenir-Book";
+  src: url("../public/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+  font-family: "Avenir-Roman";
+  src: url("../public/AvenirLTStd-Roman.otf");
+}
+
+@font-face {
+  font-family: "Metropolis-SemiBold";
+  src: url("../public/Metropolis-SemiBold.otf");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #0668E1;
 }
 
 a {
@@ -13,14 +33,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
